@@ -90,6 +90,7 @@ div.module.parallax {
     margin: 0;
     position: absolute;
     transform: translate(50%, 10%);
+    filter: drop-shadow(-8px -2px 5px rgb(34, 34, 34, 0.4))
 }
 
 
