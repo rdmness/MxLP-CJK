@@ -72,7 +72,15 @@ div.module.parallax {
 }
 
 .MoneyEarn-banner9 {
-    background-color: #d42929;
+    background:
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        rgba(70, 26, 26, 0.904), 
+      rgba(70, 29, 29, 0.904)
+    ),
+    /* bottom, image */
+    url(img/patternbg.png);
+    background-repeat: no-repeat;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
